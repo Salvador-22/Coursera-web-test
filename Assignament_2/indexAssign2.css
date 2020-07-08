@@ -1,6 +1,3 @@
-*{
-	box-sizing: border-box;
-}
 h1{
 	text-align: center;
 	size: 75%;
@@ -8,42 +5,58 @@ h1{
 }
 p{
 	color: black;
-	margin-right: 5px;
-	margin-left: 5px;
+	padding:10px;
+	clear:both;
 
 }
 .style{
-	width: 100%;
-	background-color: grey;  
-    border: 1px solid black;
-    float: left;
-    padding: 5px;
+    width:95%;
+	border:1px black solid;
+	float:left;
+	margin:8px;
+	background-color:gray;
+
     
 	}
-div.st1{
-	width: 50%;
-	size: 25%;
-	color: black;
-	border-bottom:  1px solid black;
-	border-left: 1px solid black;
-	text-align: center;
-	position: relative;
-    bottom: 5px;
-    left:50%;
-	
+.st1{
+	color:black;
+	font-size:20px;
+	margin-top:0px;
+	float:right;
+	margin-bottom: 5px;
+	width:100px;
+	border-left:1px solid black;
+	border-bottom: 1px solid black;
+	padding: 5px;
+	background-color: #5F9EA0;	
 }
 
-.col1{
-background-color: #5F9EA0;
-}
-.col2{
+.st2{
+color: black;
+font-size:20px;
+margin-top:0px;
+float:right;
+margin-bottom: 5px;
+width:100px;
+border-left:1px solid black;
+border-bottom: 1px solid black;
+padding: 5px;
 background-color: #FAFAD2;
 }
-.col3{
+.st3{
+color: black;
+font-size:20px;
+margin-top:0px;
+float:right;
+margin-bottom: 5px;
+width:100px;
+border-left:1px solid black;
+border-bottom: 1px solid black;
+padding: 5px;
 background-color: #E9967A;
 }
 .row{
-	width: 100%
+	width:100%;
 }
 /*Desktop Devices*/
 @media (min-width: 992px){
@@ -132,6 +145,7 @@ background-color: #E9967A;
 	}
 }
 }
+/**Phone Devices**/
 @media (max-width: 767px){
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8,
 .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{
