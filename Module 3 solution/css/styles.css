@@ -1,0 +1,111 @@
+body{
+background-color: #0f4c81;
+}
+/** HEADER **/
+
+#header-nav{
+	background-color: #DCDCDC;
+	border-radius: 0;
+	border: 0;
+
+}
+
+.navbar-brand{
+	padding-top: 15px;
+
+}
+.navbar-brand h1{ /* Restaurant name */
+	font-family: 'Roboto', sans-serif;
+	color:#A52A2A;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	line-height: .75;
+	margin-right: auto;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-brand p span{/*Star K*/
+	vertical-align: middle;
+}
+#style {
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.5em;
+	color: #FFFAF0;
+	margin:20px 0px 20px 0px;
+}
+.foodText{
+color: #4682B4;
+font-family: 'Roboto', sans-serif;
+text-align: center;
+font-size: 1.7em;
+margin-bottom: 10px;
+padding-top: 10px
+}
+.containers{
+	border: 2px;
+	background-color: #F0FFF0;
+	height: 1000px;
+
+}
+.containers2{
+	margin-top: 20px;
+	border: 2px;
+	background-color: #FFF0F5;
+	height: 1000px;
+	
+}
+.containers3{
+	margin-top: 20px;
+	border: 2px;
+	background-color: #E0FFFF;
+	height: 1000px;
+}
+.innerText{
+	line-height: 25px;
+	font-size: 1.2em;
+	font-family: 'Roboto', sans-serif;
+}
+.menuItems{
+	
+	font-family: font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color:  #FFFAF0;
+	padding: 0px;
+
+}
+
+.border1{
+
+border:2px solid #DCDCDC;
+
+}
+.border2{
+border-right:2px solid #DCDCDC; 
+border-left:2px solid #DCDCDC;
+border-bottom: 2px solid #DCDCDC;
+
+}
+
+.colback{
+background-color: #696969;
+}
+
+#nav-list li:hover{
+	background:#E7E7E7;
+
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border:1px solid #0f4c81;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: right;
+
+}
